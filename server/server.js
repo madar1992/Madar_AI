@@ -19,7 +19,7 @@ const config = {
 }
 */
 const config = {
-  model: "text-davinci-003",
+  model: process.env.MODEL,
   temperature: parseFloat(process.env.TEMPERATURE),
   max_tokens: parseFloat(process.env.MAX_TOKENS),
   top_p: parseFloat(process.env.TOP_P),
