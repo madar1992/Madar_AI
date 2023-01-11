@@ -1,4 +1,4 @@
-import bot from './assets/bot.svg'
+import Bitlabs from './assets/Bitlabs.png'
 import user from './assets/user.svg'
 
 const form = document.querySelector('form')
@@ -51,8 +51,8 @@ function chatStripe(isAi, value, uniqueId) {
             <div class="chat">
                 <div class="profile">
                     <img 
-                      src=${isAi ? bot : user} 
-                      alt="${isAi ? 'bot' : 'user'}" 
+                      src=${isAi ? Bitlabs : user} 
+                      alt="${isAi ? 'Bitlabs' : 'user'}" 
                     />
                 </div>
                 <div class="message" id=${uniqueId}>${value}</div>
