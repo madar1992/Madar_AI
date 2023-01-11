@@ -53,6 +53,7 @@ function chatStripe(isAi, value, uniqueId) {
                     <img 
                       src=${isAi ? Bitlabs : user} 
                       alt="${isAi ? 'Bitlabs' : 'user'}" 
+                      style="width: 100%; height: auto;"
                     />
                 </div>
                 <div class="message" id=${uniqueId}>${value}</div>
